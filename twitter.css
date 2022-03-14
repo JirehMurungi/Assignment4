@@ -8,24 +8,34 @@
     background-color: rgba(102, 221, 241, .4);
     margin:auto;
     padding:105px;
+    background-color: white;
 
 }
 .white{
     width:500px;
-    min-height:400px;
-    background-color:rgb(172, 81, 175);
+    min-height:500px;
+    background-color: rgb(0, 195, 255);
+    background-image: url("twitterbird.png") ;
+    background-size: 600px 550px;
     float:left;
 }
 .blue{
     width:500px;
-    min-height:400px;
-    background-color:blue;
+    min-height:500px;
+    background-color:white;
     float:right;
 }
-.box1,.box2{
+.box2{
     padding-left: 200px;
     padding-right: 100px;
     padding-top: 150px;
+    color:black;
+
+}
+.box1{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 200px;
     color:white;
 
 }
@@ -48,4 +58,13 @@ p{
     padding:5px;
     border-radius: 15px;
     border: none;
+}
+#sign{
+    background-color: rgb(0, 162, 255);
+}
+#icon{
+    color: rgb(0, 162, 255);
+}
+#log{
+    border: 1px solid rgb(0, 162, 255);
 }
